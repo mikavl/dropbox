@@ -1,0 +1,6 @@
+#!/bin/sh
+
+HOME=${data}
+export HOME
+
+exec /usr/bin/python3 /opt/dropbox.py $@
